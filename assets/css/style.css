@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(255, 44, 79);
+}
+
+.navbar {
+    background-color: black;
+    height: 80px;
+    padding: 25px;
+}
+
+.navbar .name {
+    font-style: italic;
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a.nbr {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+.navbar ul {
+    display: inline-block;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.container {
+    display: flex;
+    background: white;
+    height: 620px;
+    width: 870px;
+    border-radius: 9px;
+    overflow: hidden;
+}
+
+img {
+    object-fit: cover;
+    height: 100%;
+    width: 435px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+
+.info {
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+h2 {
+    opacity: 0.5;
+    font-size: 37px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+form {
+    margin-top: 38px;
+}
+
+form input {
+    opacity: 0.8;
+    width: 320px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 10px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    font-size: large;
+}
+
+::placeholder {
+    font-size: large;
+}
+
+button {
+    background-image: linear-gradient(to bottom right, black, red);
+    border-radius: 18px;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 35px;
+    height: 35px;
+    line-height: 35px;
+    min-width: 150px;
+    opacity: 0.7;
+    cursor: pointer;
+    padding: 4px 35px 40px;
+}
+
+p {
+    font-family: sans-serif;
+    margin-top: 30px;
+    opacity: 0.7;
+    font-size: large;
+}
+
+p a {
+    text-decoration: none;
+    color: blue;
+}
